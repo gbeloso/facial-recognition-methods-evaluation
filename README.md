@@ -47,7 +47,7 @@ The primary notebook handles the entire data pipeline:
 2.  **Install dependencies:**
     This project requires Python and standard data science libraries:
     ```bash
-    pip install -r rquirements.txt
+    pip install -r requirements.txt
     ```
 
 3.  **Run the Notebook:**
@@ -62,3 +62,4 @@ In the context of Information Security, we evaluate the models based on:
 * **ROC Curve & AUC:** To measure the model's ability to distinguish between identities.
 
 * **Cross-Validation:** Ensuring the results are statistically significant and free from overfitting.
+
