@@ -8,7 +8,7 @@ This repository contains a comparative study of different feature extraction tec
 
 The main objective of this study is to evaluate the performance of various combinations of feature extractors and ML models for facial verification tasks. The evaluation uses 10-fold cross-validation and focuses on metrics crucial for security systems, such as reliability and error rates.
 
-### Techniques Implemented
+### Techniques used in the study
 
 * **Feature Extraction:**
     * **LBPH** (Local Binary Patterns Histograms)
@@ -47,7 +47,7 @@ The primary notebook handles the entire data pipeline:
 2.  **Install dependencies:**
     This project requires Python and standard data science libraries:
     ```bash
-    pip install numpy pandas matplotlib scikit-learn opencv-python
+    pip install -r rquirements.txt
     ```
 
 3.  **Run the Notebook:**
@@ -60,4 +60,5 @@ The primary notebook handles the entire data pipeline:
 In the context of Information Security, we evaluate the models based on:
 * **Confusion Matrix:** Crucial for identifying **False Acceptance Rate (FAR)** and **False Rejection Rate (FRR)**.
 * **ROC Curve & AUC:** To measure the model's ability to distinguish between identities.
+
 * **Cross-Validation:** Ensuring the results are statistically significant and free from overfitting.
