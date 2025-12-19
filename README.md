@@ -41,7 +41,7 @@ The primary notebook handles the entire data pipeline:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/repository-name.git](https://github.com/your-username/repository-name.git)
+    git clone https://github.com/gbeloso/facial-recognition-methods-evaluation.git
     ```
 
 2.  **Install dependencies:**
@@ -62,4 +62,5 @@ In the context of Information Security, we evaluate the models based on:
 * **ROC Curve & AUC:** To measure the model's ability to distinguish between identities.
 
 * **Cross-Validation:** Ensuring the results are statistically significant and free from overfitting.
+
 
